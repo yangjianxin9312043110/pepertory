@@ -1,0 +1,46 @@
+<table class="main_contents_table green" style="table-layout: fixed;">
+		<col style="width: 6%" />
+        <col style="width: 8%" />
+        <col style="width: 8%" />
+        <col style="width: 8%" />
+        <col style="width: 7%" />
+        <col style="width: 7%" />
+        <col style="width: 13%" />
+        <col style="width: 8%" />
+        <col style="width: 8%" />
+        <col style="width: 7%" />
+        <col style="width: 7%" />
+        <col style="width: 13%" />
+		<tr>
+			<th rowspan="2">年份</th>
+			<th rowspan="2">发布总量</th>
+			<th colspan="5">部门预算专项发布量</th>
+			<th colspan="5">转移支付专项发布量</th>
+		</tr>
+		<tr>
+			<th>总量</th>
+			<th>省级部门</th>
+			<th>市州部门</th>
+			<th>区县部门</th>
+			<th>涉及资金额(万元)</th>
+			<th>总量</th>
+			<th>省级部门</th>
+			<th>市州部门</th>
+			<th>区县部门</th>
+			<th>涉及资金额(万元)</th>
+		</tr>
+		<tr class="orange">
+			<td width="6%">{{REPORT_YEAR}}</td>
+			<td style="width="8%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{TOTAL}}">{{TOTAL}}</td>
+			<td style="width="8%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{BMYS_NUM_ALL}}"><em>{{BMYS_NUM_ALL}}</em></td>
+			<td style="width="8%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{BMYS_NUM_SJ}}"><em>{{BMYS_NUM_SJ}}</em></td>
+			<td style="width="7%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{BMYS_NUM_SZ}}"><em>{{BMYS_NUM_SZ}}</em></td>
+			<td style="width="7%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{BMYS_NUM_QX}}"><em>{{BMYS_NUM_QX}}</em></td>
+			<td style="width="13%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{BMYS_MONEY}}"><em>{{BMYS_MONEY}}</em></td>
+			<td style="width="8%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{ZYZF_NUM_ALL}}"><em>{{ZYZF_NUM_ALL}}</em></td>
+			<td style="width="8%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{ZYZF_NUM_SJ}}"><em>{{ZYZF_NUM_SJ}}</em></td>
+			<td style="width="7%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{ZYZF_NUM_SZ}}"><em>{{ZYZF_NUM_SZ}}</em></td>
+			<td style="width="7%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{ZYZF_NUM_QX}}"><em>{{ZYZF_NUM_QX}}</em></td>
+			<td style="width="13%";text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" title="{{ZYZF_MONEY}}"><em>{{ZYZF_MONEY}}</em></td>
+		</tr>
+	</table>
